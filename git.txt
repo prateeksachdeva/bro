@@ -1,0 +1,11 @@
+first "wwww.git-scm.com" download from here the git
+then check from cmd by writing "git --version"
+then go where ur data which u want to upload in git "git init"
+"git status" to check which is uploaded or not
+
+echo "# bro" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/prateeksachdeva/bro.git
+git push -u origin master
